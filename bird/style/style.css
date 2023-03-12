@@ -1,0 +1,115 @@
+body {
+    background: #040429;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    font-family: 'PT Sans Caption', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background: #0c5d86;
+    justify-content: center;
+    height: 10vh;
+    padding-top: 2vh;
+    z-index: 5000;
+}
+
+main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.logo-header {
+    margin-left: 3vw;
+}
+
+.left-header>p {
+    font-weight: 900;
+    font-size: 2vw;
+    color: rgb(240, 149, 2);
+}
+
+.center-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    width: 33%;
+    color: white;
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.link-header {
+    text-decoration: none;
+    color: white;
+}
+
+.right-header {
+    display: flex;
+    justify-content: right;
+    padding-top: 2.5vh;
+    padding-right: 3vw;
+    width: 33%;
+}
+
+.left-header {
+    display: flex;
+    justify-content: left;
+    width: 33%;
+}
+
+.nav-header {
+    margin: 1vw;
+    padding: 0.35vh;
+    transition: all 0.5s ease;
+}
+
+.nav-header:hover {
+    transform: scale(1.2);
+    border-bottom: 0.10vw solid #A0EEDC;
+}
+
+.btn-header {
+    background: none;
+    border: 0.15vw solid #fba872;
+    border-radius: 15px;
+    color: #fba872;
+    width: 8vw;
+    height: 5vh;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 1.05vw;
+}
+
+.btn-header:hover {
+    transform: scale(1.2);
+    background: #fba872;
+    border: 0.15vw solid;
+    color: white;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 10000;
+}
+
+#btn-restart {
+    position: absolute;
+    z-index: 20000;
+    width: 120px;
+    height: 50px;
+    top: 300px;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 4px solid black;
+    background: none;
+    color: black;
+    display: none;
+}
